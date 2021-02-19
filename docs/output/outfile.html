@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Gitbook安装 · GitBook</title>
+        <title>输出为静态网站 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="gitbookcli.html" />
+    <link rel="next" href="pdfandebook.html" />
     
     
-    <link rel="prev" href="Nodejsinstall.html" />
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -102,9 +102,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="./">
+        <li class="chapter " data-level="1.2" data-path="../howtouse/">
             
-                <a href="./">
+                <a href="../howtouse/">
             
                     
                     基本安装
@@ -116,9 +116,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="Nodejsinstall.html">
+        <li class="chapter " data-level="1.2.1" data-path="../howtouse/Nodejsinstall.html">
             
-                <a href="Nodejsinstall.html">
+                <a href="../howtouse/Nodejsinstall.html">
             
                     
                     Node.js安装
@@ -129,9 +129,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.2" data-path="gitbookinstall.html">
+        <li class="chapter " data-level="1.2.2" data-path="../howtouse/gitbookinstall.html">
             
-                <a href="gitbookinstall.html">
+                <a href="../howtouse/gitbookinstall.html">
             
                     
                     Gitbook安装
@@ -142,9 +142,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="gitbookcli.html">
+        <li class="chapter " data-level="1.2.3" data-path="../howtouse/gitbookcli.html">
             
-                <a href="gitbookcli.html">
+                <a href="../howtouse/gitbookcli.html">
             
                     
                     Gitbook命令行速览
@@ -205,9 +205,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="../output/">
+        <li class="chapter " data-level="1.4" data-path="./">
             
-                <a href="../output/">
+                <a href="./">
             
                     
                     图书输出
@@ -219,9 +219,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="../output/outfile.html">
+        <li class="chapter active" data-level="1.4.1" data-path="outfile.html">
             
-                <a href="../output/outfile.html">
+                <a href="outfile.html">
             
                     
                     输出为静态网站
@@ -232,9 +232,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2" data-path="../output/pdfandebook.html">
+        <li class="chapter " data-level="1.4.2" data-path="pdfandebook.html">
             
-                <a href="../output/pdfandebook.html">
+                <a href="pdfandebook.html">
             
                     
                     输出PDF
@@ -338,7 +338,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Gitbook安装</a>
+        <a href=".." >输出为静态网站</a>
     </h1>
 </div>
 
@@ -353,15 +353,37 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="gitbook&#x5B89;&#x88C5;">Gitbook&#x5B89;&#x88C5;</h1>
-<p>Gitbook&#x662F;&#x4ECE;NMP&#x5B89;&#x88C5;&#x7684;&#xFF0C;&#x547D;&#x4EE4;&#x884C;&#xFF1A;</p>
-<pre><code class="lang-bash">$ npm install gitbook -g
+                                <h1 id="&#x8F93;&#x51FA;&#x4E3A;&#x9759;&#x6001;&#x7F51;&#x7AD9;">&#x8F93;&#x51FA;&#x4E3A;&#x9759;&#x6001;&#x7F51;&#x7AD9;</h1>
+<p>&#x4F60;&#x6709;&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x9759;&#x6001;&#x7F51;&#x7AD9;&#xFF1A;</p>
+<p><strong>&#x672C;&#x5730;&#x9884;&#x89C8;&#x65F6;&#x81EA;&#x52A8;&#x751F;&#x6210;</strong></p>
+<p>&#x5F53;&#x4F60;&#x5728;&#x81EA;&#x5DF1;&#x7684;&#x7535;&#x8111;&#x4E0A;&#x7F16;&#x8F91;&#x597D;&#x56FE;&#x4E66;&#x4E4B;&#x540E;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;Gitbook&#x7684;&#x547D;&#x4EE4;&#x884C;&#x8FDB;&#x884C;&#x672C;&#x5730;&#x9884;&#x89C8;&#xFF1A;</p>
+<pre><code class="lang-bash">$ gitbook serve ./&#x56FE;&#x4E66;&#x76EE;&#x5F55;
 </code></pre>
-<p>&#x5B89;&#x88C5;&#x5B8C;&#x4E4B;&#x540E;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x68C0;&#x9A8C;&#x4E0B;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;&#xFF1A;</p>
-<pre><code class="lang-bash">$ gitbook -V
-0.4.2
+<p>&#x8FD9;&#x91CC;&#x4F1A;&#x542F;&#x52A8;&#x4E00;&#x4E2A;&#x7AEF;&#x53E3;&#x4E3A;<code>4000</code>&#x7528;&#x4E8E;&#x9884;&#x89C8;&#x7684;&#x670D;&#x52A1;&#x5668;&#xFF1A;</p>
+<pre><code class="lang-bash">$ gitbook serve .
+Press CTRL+C to quit ...
+
+Starting build ...
+Successfuly built !
+
+Starting server ...
+Serving book on http://localhost:4000
 </code></pre>
-<p>&#x5982;&#x679C;&#x4F60;&#x770B;&#x5230;&#x4E86;&#x4E0E;&#x4E0A;&#x9762;&#x7C7B;&#x4F3C;&#x7684;&#x7248;&#x672C;&#x4FE1;&#x606F;&#xFF0C;&#x5219;&#x8868;&#x793A;&#x4F60;&#x5DF2;&#x6210;&#x529F;&#x5B8C;&#x88C5;&#x4E0A;&#x4E86;Gitbook&#x3002;</p>
+<p>&#x4F60;&#x53EF;&#x4EE5;&#x4F60;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x6253;&#x5F00;&#x8FD9;&#x4E2A;&#x7F51;&#x5740;&#xFF1A;<a href="http://localhost:4000" target="_blank">http://localhost:4000</a>&#xFF1A;</p>
+<p><img src="../imgs/yl.png" alt=""></p>
+<p>&#x8FD9;&#x91CC;&#x4F60;&#x4F1A;&#x53D1;&#x73B0;&#xFF0C;&#x4F60;&#x5728;&#x4F60;&#x7684;&#x56FE;&#x4E66;&#x9879;&#x76EE;&#x7684;&#x76EE;&#x5F55;&#x4E2D;&#x591A;&#x4E86;&#x4E00;&#x4E2A;&#x540D;&#x4E3A;<code>_book</code>&#x7684;&#x6587;&#x4EF6;&#x76EE;&#x5F55;&#xFF0C;&#x800C;&#x8FD9;&#x4E2A;&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x5373;&#x662F;&#x751F;&#x6210;&#x7684;&#x9759;&#x6001;&#x7F51;&#x7AD9;&#x5185;&#x5BB9;&#x3002;</p>
+<p><strong>&#x4F7F;&#x7528;build&#x53C2;&#x6570;&#x751F;&#x6210;&#x5230;&#x6307;&#x5B9A;&#x76EE;&#x5F55;</strong></p>
+<p>&#x4E0E;&#x76F4;&#x63A5;&#x9884;&#x89C8;&#x751F;&#x6210;&#x7684;&#x9759;&#x6001;&#x7F51;&#x7AD9;&#x6587;&#x4EF6;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x662F;&#xFF0C;&#x4F7F;&#x7528;&#x8FD9;&#x4E2A;&#x547D;&#x4EE4;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5C06;&#x5185;&#x5BB9;&#x8F93;&#x5165;&#x5230;&#x4F60;&#x6240;&#x60F3;&#x8981;&#x7684;&#x76EE;&#x5F55;&#x4E2D;&#x53BB;&#xFF1A;</p>
+<pre><code class="lang-bash">$ mkdir /tmp/gitbook
+$ gitbook build --output=/tmp/gitbook
+Starting build ...
+Successfuly built !
+$ ls /tmp/gitbook/
+LICENSE           howtouse          manifest.appcache search_index.json
+book              imgs              output
+gitbook           index.html        publish
+</code></pre>
+<p>&#x65E0;&#x8BBA;&#x54EA;&#x79CD;&#x65B9;&#x5F0F;&#xFF0C;&#x4F60;&#x90FD;&#x53EF;&#x4EE5;&#x5C06;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x6253;&#x5305;&#xFF0C;&#x7136;&#x540E;&#x628A;&#x4F60;&#x7684;&#x4E66;&#x53D1;&#x7ED9;&#x4F60;&#x7684;&#x670B;&#x53CB;&#x4EEC;&#x4E86;&#xFF01;</p>
 
                                 
                                 </section>
@@ -389,12 +411,12 @@
 
             
                 
-                <a href="Nodejsinstall.html" class="navigation navigation-prev " aria-label="Previous page: Node.js安装">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 图书输出">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="gitbookcli.html" class="navigation navigation-next " aria-label="Next page: Gitbook命令行速览">
+                <a href="pdfandebook.html" class="navigation navigation-next " aria-label="Next page: 输出PDF">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -405,7 +427,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Gitbook安装","level":"1.2.2","depth":2,"next":{"title":"Gitbook命令行速览","level":"1.2.3","depth":2,"path":"howtouse/gitbookcli.md","ref":"howtouse/gitbookcli.md","articles":[]},"previous":{"title":"Node.js安装","level":"1.2.1","depth":2,"path":"howtouse/Nodejsinstall.md","ref":"howtouse/Nodejsinstall.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"howtouse/gitbookinstall.md","mtime":"2020-02-16T08:29:14.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-19T12:26:53.534Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"输出为静态网站","level":"1.4.1","depth":2,"next":{"title":"输出PDF","level":"1.4.2","depth":2,"path":"output/pdfandebook.md","ref":"output/pdfandebook.md","articles":[]},"previous":{"title":"图书输出","level":"1.4","depth":1,"path":"output/README.md","ref":"output/README.md","articles":[{"title":"输出为静态网站","level":"1.4.1","depth":2,"path":"output/outfile.md","ref":"output/outfile.md","articles":[]},{"title":"输出PDF","level":"1.4.2","depth":2,"path":"output/pdfandebook.md","ref":"output/pdfandebook.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"output/outfile.md","mtime":"2020-02-16T08:29:14.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-19T12:45:12.033Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -413,10 +435,6 @@
         
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
